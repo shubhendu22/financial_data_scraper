@@ -1,4 +1,4 @@
-from crypt import methods
+
 from flask import Flask, render_template, request
 app = Flask(__name__,template_folder='template')
 
@@ -13,8 +13,7 @@ def home():
 def scrapDataResult():
     if request.method == 'POST':
         
-    
-    return render_template('index.html')
+        return render_template('index.html')
 
 
 

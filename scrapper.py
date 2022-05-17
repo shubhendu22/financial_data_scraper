@@ -61,7 +61,6 @@ def parse(ticker):
     except:
         return {"error": "Unhandled Error"}
 
-
 if __name__ == "__main__":
     
     scraped_data = parse('AAPL')
